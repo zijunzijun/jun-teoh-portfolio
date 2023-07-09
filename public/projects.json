@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Arteesan",
+    "slug": "arteesan",
+    "url": "arteesan.io",
+    "description": "Arteesan is a creators' platform to help artists to be successful by providing the end-to-end toolkit to create, showcase and sell physical & digital artworks, powered by NFT, without needing to learn about crypto and blockchain.",
+    "responsibilities": [],
+    "logo": "/images/projects/arteesan/logo.svg",
+    "images": []
+  },
+  {
+    "id": 2,
+    "name": "Gamicsoft",
+    "slug": "gamicsoft",
+    "url": "https://gamicsoft.com/",
+    "description": "Gamicsoft is a gaming media focusing on news, reviews & articles. Gamicsoft is also a platform for users to review, comment and engage with other gamers.",
+    "responsibilities": [],
+    "logo": "/images/projects/gamicsoft/logo.svg",
+    "images": []
+  },
+  {
+    "id": 3,
+    "name": "Audacy Ventures",
+    "slug": "audacy-ventures",
+    "url": "https://audacyventures.com/",
+    "description": "Audacy Ventures is a principal investment group focused on energy transition, decarbonization, and new frontier technologies advancing society on a global scale.",
+    "responsibilities": [],
+    "logo": "/images/projects/audacy-ventures/logo.svg",
+    "images": []
+  },
+  {
+    "id": 4,
+    "name": "Penang ExperiencePass",
+    "slug": "penang-experiencepass",
+    "url": "https://experiencepass.junteoh.dev/",
+    "description": "In the bid to enhance the Experience Penang Year 2020 campaign, the Penang Global Tourism and PlayPenang have come up with the Penang ExperincePass – a travel pass that gives visitors access to many attractions in Penang. The pass will be sent via email, just present the pass at any of the participating attractions and you're good to go.",
+    "responsibilities": [],
+    "logo": "/images/projects/penang-experiencepass/logo.svg",
+    "images": []
+  },
+  {
+    "id": 5,
+    "name": "Belong",
+    "slug": "belong",
+    "url": "https://belonghere.me",
+    "description": "Belong is a fast-growing international student accommodation and services company. The business was previously conducted manually via ready messaging tools and a static website. As the business grows, Belong needs a digital solution that can efficiently present inventory, market & sign-up customers, and landlord partners.",
+    "responsibilities": [],
+    "logo": "/images/projects/belong/logo.svg",
+    "images": []
+  },
+  {
+    "id": 6,
+    "name": "DevFest George Town",
+    "slug": "devfest-george-town",
+    "url": "https://github.com/greenroom-my/DevFest-BizFest-George-Town-2019/",
+    "description": "DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. ",
+    "responsibilities": [],
+    "logo": "/images/projects/devfest-george-town/logo.svg",
+    "images": []
+  }
+]

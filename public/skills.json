@@ -1,0 +1,67 @@
+[
+  {
+    "name": "PHP",
+    "icon": "/icons/php.svg",
+    "url": "https://www.php.net/"
+  },
+  {
+    "name": "Laravel",
+    "icon": "/icons/laravel.svg",
+    "url": "https://laravel.com/"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "/icons/js.svg",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "/icons/ts.svg",
+    "url": "https://www.typescriptlang.org/"
+  },
+  {
+    "name": "Vue",
+    "icon": "/icons/vue.svg",
+    "url": "https://vuejs.org/"
+  },
+  {
+    "name": "Angular",
+    "icon": "/icons/angular.svg",
+    "url": "https://angular.io/"
+  },
+  {
+    "name": "Tailwind CSS",
+    "icon": "/icons/tailwind.svg",
+    "url": "https://tailwindcss.com/"
+  },
+  {
+    "name": "NPM",
+    "icon": "/icons/npm.svg",
+    "url": "https://www.npmjs.com/"
+  },
+  {
+    "name": "Github",
+    "icon": "/icons/github.svg",
+    "url": "https://github.com/"
+  },
+  {
+    "name": "Figma",
+    "icon": "/icons/figma.svg",
+    "url": "https://www.figma.com/"
+  },
+  {
+    "name": "Adobe Xd",
+    "icon": "/icons/xd.svg",
+    "url": "https://www.adobe.com/products/xd.html"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "icon": "/icons/ps.svg",
+    "url": "https://www.adobe.com/products/photoshop.html"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "icon": "/icons/ai.svg",
+    "url": "https://www.adobe.com/products/illustrator.html"
+  }
+]

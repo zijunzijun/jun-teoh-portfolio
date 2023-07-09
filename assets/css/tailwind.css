@@ -9,21 +9,55 @@
         background-image: url("/images/noise.svg");
     }
     h1 {
-        @apply text-5xl leading-tight;
+        @apply text-4xl md:text-5xl leading-tight;
     }
     h2 {
-        @apply text-4xl leading-tight;
+        @apply text-3xl md:text-4xl leading-tight;
     }
     h3 {
-        @apply text-3xl leading-tight;
+        @apply text-2xl md:text-3xl leading-tight;
     }
     h4 {
-        @apply text-2xl leading-tight;
+        @apply text-xl md:text-2xl leading-tight;
     }
     p {
         @apply text-base lg:text-lg text-gray-900;
     }
     small {
         @apply text-xs text-gray-600;
+    }
+}
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+}
+
+#heroText:after {
+    content: '';
+    display: inline-block;
+    @apply bg-gray-700;
+    height: 14px;
+    width: 1px;
+    animation: cursor 0.5s infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
     }
 }
