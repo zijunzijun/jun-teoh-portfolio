@@ -13,7 +13,7 @@ const {data: projects} = await useFetch('/api/projects', {
 
   <div class="mt-8 md:mt-0 flex items-center justify-center flex-wrap gap-6">
     <small>I have experience working with</small>
-    <div class="flex items-center flex-wrap gap-6 justify-center">
+    <div class="flex items-center flex-wrap gap-5 md:gap-6 justify-center">
       <a :href="skill.url" target="_blank" v-for="skill in skills" :key="skill.name">
         <figure
           class="w-10 h-10 drop-shadow transform hover:-translate-y-1 transition-all ease-[cubic-bezier(0.4, 0, 0.25, 1)]">

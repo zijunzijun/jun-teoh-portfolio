@@ -2,7 +2,7 @@
 const heroText = `Over <strong>5 years of experience</strong> in <strong>front-end development</strong> and UI/UX design, excel at tackling difficult challenges and creating exceptional user experiences, translating into successful software solutions that align with project goals.<br><br>
           Self-taught developer with proven ability to pick up new skillsets and knowledge. Contributor to Google Developer Group (GDG) George Town.`;
 const typedText = ref('');
-const speed = 30;
+const speed = 25;
 let index = 0;
 
 const typeWriter = () => {
@@ -28,7 +28,7 @@ onMounted(() => {
           A frontend developer who is passionate about <span class="whitespace-nowrap">‍🧑‍💻 coding</span>, <span class="whitespace-nowrap">🎨 design</span>. Also, I am learning <span class="whitespace-nowrap">🇯🇵 Japanese</span> and trying to get better at it.
         </p>
         <NuxtLink :to="{ path: '/', hash: '#projects'}"
-          class="mt-6 inline-flex items-center justify-center rounded-full py-3.5 px-4 text-lg font-medium focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-cyan-400 text-white hover:text-cyan-50 hover:bg-cyan-500 active:bg-cyan-600 active:text-cyan-100">
+          class="mt-4 lg:mt-6 inline-flex items-center justify-center rounded-full py-3.5 px-5 lg:px-7 lg:text-lg font-medium focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-gray-800 text-white hover:text-gray-50 hover:bg-gray-900 active:bg-cyan-400 active:text-cyan-50">
           View Projects
         </NuxtLink>
       </div>
@@ -60,8 +60,8 @@ onMounted(() => {
           <span class="w-2 h-2 md:w-3 md:h-3 rounded-full bg-yellow-400 hover:bg-yellow-500"></span>
           <span class="w-2 h-2 md:w-3 md:h-3 rounded-full bg-green-400 hover:bg-green-500"></span>
         </div>
-        <div ref="heroText" id="heroText"
-             class="min-h-[240px] lg:min-h-[360px] bg-gray-50 font-mono lg:text-lg !leading-7 !md:leading-8 text-gray-700 break-words pt-3 pb-5 px-4 lg:pt-5 custom-scrollbar-y selection:bg-yellow-400 selection:text-sky-600"
+        <div id="heroText"
+             class="min-h-[240px] lg:min-h-[360px] bg-gray-50 font-mono lg:text-lg !leading-7 !md:leading-8 text-gray-700 break-words pt-3 pb-5 px-4 lg:pt-5 selection:bg-yellow-400 selection:text-sky-600"
              v-html="typedText">
         </div>
       </div>

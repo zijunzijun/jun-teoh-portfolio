@@ -71,7 +71,7 @@ useSeoMeta({
             }"
           >
             <SwiperSlide v-for="image in project.images" :key="image.id">
-              <div class="lg:rounded-md lg:overflow-hidden cursor-grab lg:ring-1 lg:ring-slate-900/5">
+              <div class="lg:rounded-lg lg:overflow-hidden cursor-grab lg:ring-1 lg:ring-slate-900/5">
                 <img class="block" :src="image.url" alt="">
               </div>
             </SwiperSlide>

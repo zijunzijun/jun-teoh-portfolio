@@ -54,7 +54,7 @@
         <div class="flex items-center gap-x-5 md:gap-x-8">
           <NuxtLink :to="{ path: '/', hash: '#contact'}"
              class="inline-flex items-center justify-center rounded-full py-2.5 px-4 text-sm font-medium focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-cyan-400 text-white hover:text-cyan-50 hover:bg-cyan-500 active:bg-cyan-600 active:text-cyan-100">
-            Contact 😀
+            Let's Connect 😀
           </NuxtLink>
           <div class="-mr-1 md:hidden">
             <div>

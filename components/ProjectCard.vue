@@ -12,7 +12,7 @@ const { project } = defineProps(['project'])
       </figure>
       <div class="mt-3">
         <h3 class="font-medium">{{ project.name }}</h3>
-        <div class="mt-1.5 block truncate text-sm text-gray-600 hover:underline">{{ project.url }}</div>
+        <div class="mt-1.5 block truncate text-sm text-gray-600">{{ project.url }}</div>
         <p class="mt-3 text-base leading-relaxed">
           {{ project.description }}
         </p>
