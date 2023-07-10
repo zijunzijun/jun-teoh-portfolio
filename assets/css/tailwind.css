@@ -5,7 +5,7 @@
 @layer base {
     body {
         @apply overflow-x-clip;
-        @apply bg-stone-200 bg-opacity-50;
+        @apply bg-stone-200 bg-opacity-50 selection:bg-sky-400 selection:text-yellow-300;
         background-image: url("/images/noise.svg");
     }
     h1 {
@@ -21,7 +21,7 @@
         @apply text-xl md:text-2xl leading-tight;
     }
     p {
-        @apply text-base lg:text-lg text-gray-900;
+        @apply text-base leading-7 lg:text-lg text-gray-900;
     }
     small {
         @apply text-xs text-gray-600;
@@ -39,10 +39,7 @@
 
 #heroText:after {
     content: '';
-    display: inline-block;
-    @apply bg-gray-700;
-    height: 14px;
-    width: 1px;
+    @apply inline-block w-px h-3.5 bg-gray-700 transform translate-y-px;
     animation: cursor 0.5s infinite;
 }
 
