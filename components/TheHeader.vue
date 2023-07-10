@@ -45,17 +45,17 @@
                        class="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900">
               About
             </nuxt-link>
-            <nuxt-link to="/"
+            <nuxt-link :to="{ path: '/', hash: '#projects'}"
                        class="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900">
               Projects
             </nuxt-link>
           </div>
         </div>
         <div class="flex items-center gap-x-5 md:gap-x-8">
-          <a href="#"
+          <NuxtLink :to="{ path: '/', hash: '#contact'}"
              class="inline-flex items-center justify-center rounded-full py-2.5 px-4 text-sm font-medium focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-cyan-400 text-white hover:text-cyan-50 hover:bg-cyan-500 active:bg-cyan-600 active:text-cyan-100">
-            Let’s Talk! 😀
-          </a>
+            Contact 😀
+          </NuxtLink>
           <div class="-mr-1 md:hidden">
             <div>
               <button @click="showMenu = !showMenu"
@@ -80,7 +80,8 @@
                 leave-to-class="opacity-0"
               >
                 <div v-show="showMenu">
-                  <div class="fixed inset-0 bg-slate-300/50 backdrop-blur-sm"
+                  <div @click="showMenu = !showMenu"
+                    class="fixed inset-0 bg-slate-300/50 backdrop-blur-sm"
                        aria-hidden="true"></div>
                   <transition
                     enter-from-class="opacity-0 scale-95"
@@ -92,8 +93,49 @@
                     <div v-show="showMenu"
                          class="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-xl bg-white p-4 tracking-tight text-slate-600 shadow-lg ring-1 ring-slate-900/5"
                          tabindex="-1">
-                      <nuxt-link to="/" class="block w-full p-2">About</nuxt-link>
-                      <nuxt-link to="/" class="block w-full p-2">Projects</nuxt-link>
+                      <nuxt-link to="/"
+                                 @click="showMenu = !showMenu"
+                                 class="block w-full p-2">About</nuxt-link>
+                      <nuxt-link :to="{ path: '/', hash: '#projects'}"
+                                 @click="showMenu = !showMenu"
+                                 class="block w-full p-2">Projects</nuxt-link>
+
+                      <div class="flex flex-wrap gap-4 px-2 border-t border-gray-200 pt-4 mt-2">
+                        <div class="flex items-center">
+                          <NuxtLink to="mailto:zijun.com@gmail.com" target="_blank" rel="noopener">
+                            <figure class="w-8 h-8 rounded-full grid place-content-center bg-sky-400 text-sky-50">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                                <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                                <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                              </svg>
+                            </figure>
+                          </NuxtLink>
+                        </div>
+
+                        <div class="flex items-center">
+                          <NuxtLink to="https://www.linkedin.com/in/jun-teoh" target="_blank" rel="noopener">
+                            <figure class="w-8 h-8 rounded-full grid place-content-center bg-[#0A66C2] text-gray-100">
+                              <svg class="w-4 h-4" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                  <path d="M10.9687 0.1875H1.04999C0.581238 0.1875 0.206238 0.5625 0.206238 1.03125V10.9688C0.206238 11.4187 0.581238 11.8125 1.04999 11.8125H10.9312C11.4 11.8125 11.775 11.4375 11.775 10.9688V1.0125C11.8125 0.5625 11.4375 0.1875 10.9687 0.1875ZM3.63749 10.0688H1.93124V4.5375H3.63749V10.0688ZM2.77499 3.76875C2.21249 3.76875 1.78124 3.31875 1.78124 2.775C1.78124 2.23125 2.23124 1.78125 2.77499 1.78125C3.31874 1.78125 3.76874 2.23125 3.76874 2.775C3.76874 3.31875 3.35624 3.76875 2.77499 3.76875ZM10.1062 10.0688H8.39999V7.3875C8.39999 6.75 8.38124 5.90625 7.49999 5.90625C6.59999 5.90625 6.46874 6.61875 6.46874 7.33125V10.0688H4.76249V4.5375H6.43124V5.30625H6.44999C6.69374 4.85625 7.23749 4.40625 8.08124 4.40625C9.82499 4.40625 10.1437 5.53125 10.1437 7.06875V10.0688H10.1062Z" fill="currentColor"/>
+                                </g>
+                              </svg>
+                            </figure>
+                          </NuxtLink>
+                        </div>
+
+                        <div class="flex items-center">
+                          <NuxtLink to="https://github.com/zijunzijun" target="_blank" rel="noopener">
+                            <figure class="w-8 h-8 rounded-full grid place-content-center bg-gray-900 text-gray-100">
+                              <svg class="w-5 h-5" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                  <path d="M6 0.337494C2.8125 0.337494 0.1875 2.92499 0.1875 6.14999C0.1875 8.7 1.85625 10.875 4.18125 11.6625C4.48125 11.7187 4.575 11.5312 4.575 11.4C4.575 11.2687 4.575 10.8937 4.55625 10.3875C2.94375 10.7625 2.60625 9.59999 2.60625 9.59999C2.34375 8.94374 1.95 8.75624 1.95 8.75624C1.425 8.38124 1.96875 8.38124 1.96875 8.38124C2.55 8.39999 2.86875 8.98125 2.86875 8.98125C3.375 9.88124 4.2375 9.61874 4.55625 9.45C4.6125 9.075 4.7625 8.8125 4.93125 8.66249C3.65625 8.53125 2.2875 8.02499 2.2875 5.81249C2.2875 5.17499 2.53125 4.66874 2.8875 4.27499C2.83125 4.14374 2.625 3.54374 2.94375 2.73749C2.94375 2.73749 3.45 2.58749 4.55625 3.33749C5.025 3.20624 5.5125 3.13124 6.01875 3.13124C6.525 3.13124 7.03125 3.18749 7.48125 3.33749C8.5875 2.60624 9.075 2.73749 9.075 2.73749C9.39375 3.52499 9.20625 4.14374 9.13125 4.27499C9.50625 4.66874 9.73125 5.19374 9.73125 5.81249C9.73125 8.02499 8.3625 8.53125 7.0875 8.66249C7.29375 8.84999 7.48125 9.22499 7.48125 9.75C7.48125 10.5375 7.4625 11.1562 7.4625 11.3437C7.4625 11.4937 7.575 11.6625 7.85625 11.6062C10.1438 10.8375 11.8125 8.68124 11.8125 6.11249C11.7937 2.92499 9.1875 0.337494 6 0.337494Z" fill="currentColor"/>
+                                </g>
+                              </svg>
+                            </figure>
+                          </NuxtLink>
+                        </div>
+                      </div>
                     </div>
                   </transition>
                 </div>
@@ -101,7 +143,6 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </header>
