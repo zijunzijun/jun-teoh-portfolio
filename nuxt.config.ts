@@ -8,11 +8,10 @@ export default defineNuxtConfig({
       'Ubuntu Mono': [400, 700]
     }
   },
-  swiper: {
-    // Swiper options
-    //----------------------
-    // prefix: 'Swiper',
-    // styleLang: 'css',
-    // modules: ['navigation', 'pagination'], // all modules are imported by default
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
   }
 })

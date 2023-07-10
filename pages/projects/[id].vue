@@ -2,6 +2,14 @@
 const {id} = useRoute().params;
 const {data: projects} = await useFetch('/projects.json', {key: id});
 const project = projects.value.find(project => String(project.id) === id);
+
+
+useSeoMeta({
+  title: project.name + ' | Jun Teoh | Frontend & UI Developer',
+  ogTitle: project.name + ' | Jun Teoh | Frontend & UI Developer',
+  description: project.description,
+  ogDescription: project.description,
+})
 </script>
 
 <template>

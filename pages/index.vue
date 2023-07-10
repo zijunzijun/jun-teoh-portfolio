@@ -1,6 +1,6 @@
 <script setup>
-const {data: skills} = await useFetch('/skills.json', {baseURL: "http://localhost:3000/"});
-const {data: projects} = await useFetch('/projects.json', {baseURL: "http://localhost:3000/"});
+const {data: skills} = await useFetch('/skills.json');
+const {data: projects} = await useFetch('/projects.json');
 </script>
 
 <template>
