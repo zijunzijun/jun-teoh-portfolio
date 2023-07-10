@@ -27,10 +27,10 @@ onMounted(() => {
         <p class="lg:text-xl lg:leading-8 text-gray-600 mt-4">
           A frontend developer who is passionate about <span class="whitespace-nowrap">‍🧑‍💻 coding</span>, <span class="whitespace-nowrap">🎨 design</span>. Also, I am learning <span class="whitespace-nowrap">🇯🇵 Japanese</span> and trying to get better at it.
         </p>
-        <a href=""
-           class="mt-6 inline-flex items-center justify-center rounded-full py-3.5 px-4 text-lg font-medium focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-cyan-400 text-white hover:text-cyan-50 hover:bg-cyan-500 active:bg-cyan-600 active:text-cyan-100">
+        <NuxtLink :to="{ path: '/', hash: '#projects'}"
+          class="mt-6 inline-flex items-center justify-center rounded-full py-3.5 px-4 text-lg font-medium focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-cyan-400 text-white hover:text-cyan-50 hover:bg-cyan-500 active:bg-cyan-600 active:text-cyan-100">
           View Projects
-        </a>
+        </NuxtLink>
       </div>
     </div>
     <div class="order-first md:order-2 relative">

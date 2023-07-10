@@ -4,7 +4,7 @@ const { project } = defineProps(['project'])
 
 <template>
   <div>
-    <nuxt-link to="/" class="block group">
+    <nuxt-link :to="`/projects/${project.id}`" class="block group">
       <figure
         class="w-full p-4 border-2 border-gray-900 h-48 grid place-content-center rounded-lg bg-white transition ease-[cubic-bezier(0.4, 0, 0.25, 1)] group-hover:bg-stone-100">
         <img :src="project.logo" alt=""

@@ -3,11 +3,48 @@
     "id": 1,
     "name": "Arteesan",
     "slug": "arteesan",
-    "url": "arteesan.io",
+    "url": "https://arteesan.io/",
     "description": "Arteesan is a creators' platform to help artists to be successful by providing the end-to-end toolkit to create, showcase and sell physical & digital artworks, powered by NFT, without needing to learn about crypto and blockchain.",
-    "responsibilities": [],
+    "responsibilities": [
+      "Designed the user interfaces and developed the frontend of the web-based application using <strong>Laravel</strong> and <strong>Tailwind CSS</strong>, incorporating JavaScript for interactive functionality.",
+      "Implemented the Content Management System (CMS) backend using Laravel, allowing for efficient management of investors, investment opportunities, and investment updates.",
+      "It is currently utilized to efficiently manage the VC fund, simplifying tasks such as investor management, investment opportunities, and investment updates. As a result, there has been a significant 40% decrease in administrative overhead and notable improvements in data accuracy, facilitating streamlined operations and informed decision-making processes."
+    ],
     "logo": "/images/projects/arteesan/logo.svg",
-    "images": []
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/projects/arteesan/1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/projects/arteesan/2.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/projects/arteesan/3.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/projects/arteesan/4.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/projects/arteesan/5.jpg"
+      },
+      {
+        "id": 6,
+        "url": "/images/projects/arteesan/6.jpg"
+      },
+      {
+        "id": 7,
+        "url": "/images/projects/arteesan/7.jpg"
+      },
+      {
+        "id": 8,
+        "url": "/images/projects/arteesan/8.jpg"
+      }
+    ]
   },
   {
     "id": 2,
@@ -15,9 +52,54 @@
     "slug": "gamicsoft",
     "url": "https://gamicsoft.com/",
     "description": "Gamicsoft is a gaming media focusing on news, reviews & articles. Gamicsoft is also a platform for users to review, comment and engage with other gamers.",
-    "responsibilities": [],
+    "responsibilities": [
+      "Spearheaded the frontend development of Gamicsoft, <strong>Laravel</strong> Framework and <strong>JavaScript</strong> for frontend user interface, and developed mobile applications for iOS and Android platforms using Ionic / Angular. Seamlessly integrating REST/RESTful APIs for comprehensive mobile application functionality.",
+      "These strategic choices accelerated development, improved performance, and enhanced user experiences, ultimately expanding Gamicsoft's reach and engagement. Leveraged the power of Spatie's laravel-translatable library in conjunction with Laravel's native localization feature to achieve full localization of content, catering to a diverse range of readers in both Mandarin and English.",
+      "Executed effective <strong>meta-data practices</strong> to optimize search engine visibility and improve search engine optimization (SEO), augmenting the platform's discoverability and driving organic traffic and user engagement. Propelled Gamicsoft to remarkable growth, accumulating 55k Facebook followers, solidifying its position as a leading local media platform for gaming news."
+    ],
     "logo": "/images/projects/gamicsoft/logo.svg",
-    "images": []
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/projects/gamicsoft/1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/projects/gamicsoft/2.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/projects/gamicsoft/3.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/projects/gamicsoft/4.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/projects/gamicsoft/5.jpg"
+      },
+      {
+        "id": 6,
+        "url": "/images/projects/gamicsoft/6.jpg"
+      },
+      {
+        "id": 7,
+        "url": "/images/projects/gamicsoft/7.jpg"
+      },
+      {
+        "id": 8,
+        "url": "/images/projects/gamicsoft/8.jpg"
+      },
+      {
+        "id": 9,
+        "url": "/images/projects/gamicsoft/9.jpg"
+      },
+      {
+        "id": 10,
+        "url": "/images/projects/gamicsoft/10.jpg"
+      }
+    ]
   },
   {
     "id": 3,
@@ -25,9 +107,42 @@
     "slug": "audacy-ventures",
     "url": "https://audacyventures.com/",
     "description": "Audacy Ventures is a principal investment group focused on energy transition, decarbonization, and new frontier technologies advancing society on a global scale.",
-    "responsibilities": [],
+    "responsibilities": [
+      "Designed the user interfaces and developed the frontend of the web-based application using <strong>Laravel</strong> and <strong>Tailwind CSS</strong>, incorporating <strong>JavaScript</strong> for interactive functionality.",
+      "Implemented the <strong>Content Management System (CMS)</strong> backend using <strong>Laravel</strong>, allowing for efficient management of investors, investment opportunities, and investment updates.",
+      "It is currently utilized to efficiently manage the VC fund, simplifying tasks such as investor management, investment opportunities, and investment updates. As a result, there has been a significant 40% decrease in administrative overhead and notable improvements in data accuracy, facilitating streamlined operations and informed decision-making processes."
+    ],
     "logo": "/images/projects/audacy-ventures/logo.svg",
-    "images": []
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/projects/audacy-ventures/1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/projects/audacy-ventures/2.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/projects/audacy-ventures/3.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/projects/audacy-ventures/4.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/projects/audacy-ventures/5.jpg"
+      },
+      {
+        "id": 6,
+        "url": "/images/projects/audacy-ventures/6.jpg"
+      },
+      {
+        "id": 7,
+        "url": "/images/projects/audacy-ventures/7.jpg"
+      }
+    ]
   },
   {
     "id": 4,
@@ -35,9 +150,42 @@
     "slug": "penang-experiencepass",
     "url": "https://experiencepass.junteoh.dev/",
     "description": "In the bid to enhance the Experience Penang Year 2020 campaign, the Penang Global Tourism and PlayPenang have come up with the Penang ExperincePass – a travel pass that gives visitors access to many attractions in Penang. The pass will be sent via email, just present the pass at any of the participating attractions and you're good to go.",
-    "responsibilities": [],
+    "responsibilities": [
+      "Led the <strong>visual design</strong> and frontend development efforts for the Penang First Travel Pass project, utilizing <strong>Laravel</strong> framework and harnessing the power of <strong>Vue.js</strong> for enhanced user experience and seamless interactions.",
+      "Successfully achieved a significant 30% increase in user engagement, attaining glowing user feedback and driving the overall success of the project. Created a mobile-friendly Laravel mail template for emails and e-tickets, adhering to brand guidelines and dynamically adapting based on the visitor's device.",
+      "Ensured a mobile-first approach, considering that a majority of users (90%) accessed the application through mobile devices."
+    ],
     "logo": "/images/projects/penang-experiencepass/logo.svg",
-    "images": []
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/projects/penang-experiencepass/1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/projects/penang-experiencepass/2.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/projects/penang-experiencepass/3.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/projects/penang-experiencepass/4.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/projects/penang-experiencepass/5.jpg"
+      },
+      {
+        "id": 6,
+        "url": "/images/projects/penang-experiencepass/6.jpg"
+      },
+      {
+        "id": 7,
+        "url": "/images/projects/penang-experiencepass/7.jpg"
+      }
+    ]
   },
   {
     "id": 5,
@@ -47,7 +195,48 @@
     "description": "Belong is a fast-growing international student accommodation and services company. The business was previously conducted manually via ready messaging tools and a static website. As the business grows, Belong needs a digital solution that can efficiently present inventory, market & sign-up customers, and landlord partners.",
     "responsibilities": [],
     "logo": "/images/projects/belong/logo.svg",
-    "images": []
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/projects/belong/1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/projects/belong/2.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/projects/belong/3.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/projects/belong/4.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/projects/belong/5.jpg"
+      },
+      {
+        "id": 6,
+        "url": "/images/projects/belong/6.jpg"
+      },
+      {
+        "id": 7,
+        "url": "/images/projects/belong/7.jpg"
+      },
+      {
+        "id": 8,
+        "url": "/images/projects/belong/8.jpg"
+      },
+      {
+        "id": 9,
+        "url": "/images/projects/belong/9.jpg"
+      },
+      {
+        "id": 10,
+        "url": "/images/projects/belong/10.jpg"
+      }
+    ]
   },
   {
     "id": 6,
@@ -55,8 +244,34 @@
     "slug": "devfest-george-town",
     "url": "https://github.com/greenroom-my/DevFest-BizFest-George-Town-2019/",
     "description": "DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. ",
-    "responsibilities": [],
+    "responsibilities": [
+      "Led the visual design of the DevFest George Town events, creating an engaging and visually appealing event experience.",
+      "Developed the frontend of the project using <strong>Angular</strong>, delivering a modern and interactive user interface.",
+      "Implemented <strong>Firebase</strong> integration, enabling seamless data management and real-time updates.",
+      "Contributed to the project's GitHub repository, providing code updates and actively collaborating with other contributors."
+    ],
     "logo": "/images/projects/devfest-george-town/logo.svg",
-    "images": []
+    "images": [
+      {
+        "id": 1,
+        "url": "/images/projects/devfest-george-town/1.jpg"
+      },
+      {
+        "id": 2,
+        "url": "/images/projects/devfest-george-town/2.jpg"
+      },
+      {
+        "id": 3,
+        "url": "/images/projects/devfest-george-town/3.jpg"
+      },
+      {
+        "id": 4,
+        "url": "/images/projects/devfest-george-town/4.jpg"
+      },
+      {
+        "id": 5,
+        "url": "/images/projects/devfest-george-town/5.jpg"
+      }
+    ]
   }
 ]
