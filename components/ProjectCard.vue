@@ -16,6 +16,12 @@ const { project } = defineProps(['project'])
         <p class="mt-3 text-base leading-relaxed">
           {{ project.description }}
         </p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <div v-for="tag in project.tags"
+          class="py-0.5 px-1.5 border border-gray-900 text-xs rounded-full">
+            #{{tag}}
+          </div>
+        </div>
       </div>
     </nuxt-link>
   </div>

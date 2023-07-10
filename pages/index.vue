@@ -19,7 +19,7 @@ const {data: projects} = await useFetch('/projects.json', {baseURL: "http://loca
     <small>and more are coming...</small>
   </div>
 
-  <div class="relative py-10 lg:py-16" id="projects">
+  <div class="relative py-12 lg:pt-8 lg:pb-24 lg:mt-8" id="projects">
     <div class="mb-8">
       <h4 class="font-medium">Projects</h4>
     </div>

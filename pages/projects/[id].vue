@@ -5,9 +5,17 @@ const project = projects.value.find(project => String(project.id) === id);
 </script>
 
 <template>
-  <div class="py-12 space-y-12">
+  <div class="py-12 md:pb-24 space-y-8 md:space-y-12">
     <div class="flex items-center justify-between">
-      <h1 class="font-bold">{{ project.name }}</h1>
+      <div>
+        <h1 class="font-bold">{{ project.name }}</h1>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <div v-for="tag in project.tags"
+               class="py-0.5 px-1.5 border border-gray-900 text-xs rounded-full">
+            #{{tag}}
+          </div>
+        </div>
+      </div>
       <figure>
         <img :src="project.logo" alt="">
       </figure>
@@ -24,7 +32,7 @@ const project = projects.value.find(project => String(project.id) === id);
         <div class="w-full py-1 md:py-1.5 px-2 md:px-3 bg-gray-800 bg-opacity-95 border-b border-gray-900">
           <div class="group/url w-full flex items-center justify-between transition-all
           bg-gray-100 hover:bg-gray-200
-          py-1 md:py-1.5 px-2.5 md:px-4 rounded-full
+          py-1 md:py-1.5 px-2.5 md:px-4 space-x-2 rounded-full
           text-sm md:text-base leading-none">
             <NuxtLink :to="project.url" target="_blank" rel="noopener" class="flex-grow truncate">
               {{ project.url }}
@@ -72,6 +80,10 @@ const project = projects.value.find(project => String(project.id) === id);
             <p class="leading-9" v-html="item"></p>
           </li>
         </ul>
+      </div>
+
+      <div>
+        <NuxtLink :to="{ path: '/', hash: '#projects'}" class="block text-center py-3.5 px-4 text-lg font-medium focus:outline-none rounded-full border border-gray-900 hover:bg-gray-900 hover:text-gray-100">Back</NuxtLink>
       </div>
     </div>
   </div>
