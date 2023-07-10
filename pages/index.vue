@@ -1,6 +1,11 @@
 <script setup>
-const {data: skills} = await useFetch('/skills.json');
-const {data: projects} = await useFetch('/projects.json');
+const {data: skills} = await useFetch('/api/skills', {
+  transform: (_skills) => _skills.data
+});
+
+const {data: projects} = await useFetch('/api/projects', {
+  transform: (_projects) => _projects.data
+});
 </script>
 
 <template>
@@ -16,7 +21,7 @@ const {data: projects} = await useFetch('/projects.json');
         </figure>
       </a>
     </div>
-    <small>and more are coming...</small>
+    <small>and more...</small>
   </div>
 
   <div class="relative py-12 lg:pt-8 lg:pb-24 lg:mt-8" id="projects">

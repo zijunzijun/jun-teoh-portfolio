@@ -1,8 +1,9 @@
 <script setup>
 const {id} = useRoute().params;
-const {data: projects} = await useFetch('/projects.json', {key: id});
+const {data: projects} = await useFetch('/api/projects', {
+  transform: (_projects) => _projects.data
+});
 const project = projects.value.find(project => String(project.id) === id);
-
 
 useSeoMeta({
   title: project.name + ' | Jun Teoh | Frontend & UI Developer',
